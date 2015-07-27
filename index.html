@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/cover.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-signin">
+        <h2 class="form-signin-heading">Addition</h2>
+        <label for="num1" class="sr-only">Number 1</label>
+        <input type="text" id="num1" class="form-control" placeholder="Number 1" required autofocus>
+        <label for="num2" class="sr-only">Number 2</label>
+        <input type="text" id="num2" class="form-control" placeholder="Number 2" required>
+        <button id="add_button" class="btn btn-lg btn-primary btn-block" type="button">ADD</button>
+        <div class="alert alert-success">
+          <strong>Result:</strong>
+          <span id="result"></span>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/util/math.js"></script>
+    <script type="text/javascript" src="js/ui/addutil.js"></script>
+  </body>
+</html>
